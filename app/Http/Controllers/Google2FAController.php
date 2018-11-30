@@ -77,6 +77,6 @@ class Google2FAController extends Controller
     {
         $randomBytes = random_bytes(10);
         
-        return Base32::encodeUpper($randomBytes) 
+        return Base32::encodeUpper($randomBytes); 
     }
 }
